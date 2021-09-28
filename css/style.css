@@ -435,6 +435,13 @@
     width: 40px;
     height: 24px;
   }
+  .slider .s-item {
+    width: 100px;
+    height: 80px;
+  }
+  .slider .slide {
+    padding-left: 132px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -445,11 +452,14 @@
     display: none;
   }
   .slider .s-item {
-    width: 120px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
   }
   .slider .last {
     display: none;
+  }
+  .slide {
+    padding-left: 132px;
   }
   .hit img {
     width: 50px;
@@ -472,9 +482,6 @@
   }
   .slider {
     display: none;
-  }
-  .slide-item {
-    padding-left: 150px;
   }
   .products {
     display: -ms-grid;
