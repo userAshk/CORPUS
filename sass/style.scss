@@ -18,7 +18,9 @@
         list-style: none;
     }
 }
-
+body{
+    min-width: fit-content;
+}
 .container{
     margin: 0 auto;
     font-family: "Roboto";

@@ -127,4 +127,13 @@
             height: 30px;
         }
     }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 424px) {
+    .footer{
+        display: block;
+        width: 100%;
+    }
 }
