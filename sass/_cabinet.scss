@@ -1,0 +1,50 @@
+.cabinet{
+    margin-top: 100px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+h1{
+    font-family: "Roboto";
+    text-align: center;
+}
+.cab-line{
+    width: 180px;
+}
+
+.cab-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 50px;
+}
+.cab-info{
+    padding-left: 15px;
+    .info{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.counter-btn{
+    margin-top: 50px;
+    font-family: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cab-counter{
+    margin-top: 50px;
+}
+.value{
+    font-family: "Roboto";
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+.delete-btn{
+    background-color: $delete;
+    color: white;
+    border: none;
+    grid-template: 36px;
+    height: 40px;
+    border-radius: 4px;
+}

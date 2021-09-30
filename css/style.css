@@ -20,9 +20,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .header .nav li {
@@ -53,7 +56,6 @@
 
 .features .burger {
   float: left;
-  margin-right: 10px;
 }
 
 .features .burger img {
@@ -65,12 +67,17 @@
 .features .menu {
   display: none;
   background-color: #a5a5a5;
-  height: 200px;
+  height: 350px;
   width: 210px;
   padding-top: 10px;
   position: absolute;
-  margin-left: 20px;
+  margin-top: 80px;
   z-index: 1;
+  border-radius: 8px;
+}
+
+.features .menu hr {
+  width: 100%;
 }
 
 .features .slide {
@@ -142,6 +149,33 @@
   width: 34px;
   height: 34px;
   padding-top: 4px;
+}
+
+.contacts a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contacts .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .slider {
@@ -458,7 +492,7 @@
     display: none;
   }
   .slide {
-    padding-left: 132px;
+    padding-left: 120px;
   }
   .hit img {
     width: 50px;
@@ -853,6 +887,101 @@
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+  }
+}
+
+.cabinet {
+  margin-top: 100px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+h1 {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.cab-line {
+  width: 180px;
+}
+
+.cab-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 50px;
+}
+
+.cab-info {
+  padding-left: 15px;
+}
+
+.cab-info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.counter-btn {
+  margin-top: 50px;
+  font-family: 20px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cab-counter {
+  margin-top: 50px;
+}
+
+.value {
+  font-family: "Roboto";
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background-color: #ea0e0e;
+  color: white;
+  border: none;
+  grid-template: 36px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .cabinet {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cab-item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .cab-item img {
+    width: 100%;
+  }
+  .delete-btn {
+    margin-top: 30px;
   }
 }
 
