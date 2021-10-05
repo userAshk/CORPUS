@@ -901,6 +901,10 @@ h1 {
   text-align: center;
 }
 
+.pro-name {
+  font-size: 24px;
+}
+
 .cab-line {
   width: 180px;
 }
@@ -919,6 +923,7 @@ h1 {
 
 .cab-info {
   padding-left: 15px;
+  padding-bottom: 20px;
 }
 
 .cab-info .info {
@@ -965,6 +970,7 @@ h1 {
   border-radius: 8px;
   background-color: #3acf26;
   color: black;
+  font-family: "Roboto";
 }
 
 @media screen and (max-width: 768px) {

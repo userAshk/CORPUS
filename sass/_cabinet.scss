@@ -7,6 +7,9 @@ h1{
     font-family: "Roboto";
     text-align: center;
 }
+.pro-name{
+    font-size: 24px;
+}
 .cab-line{
     width: 180px;
 }
@@ -20,13 +23,11 @@ h1{
 }
 .cab-info{
     padding-left: 15px;
+    padding-bottom: 20px;
     .info{
         display: flex;
         justify-content: space-between;
     }
-}
-.cab-counter{
-
 }
 .counter-btn{
     margin-top: 50px;
@@ -60,4 +61,5 @@ h1{
     border-radius: 8px;
     background-color: rgb(58, 207, 38);
     color: black;
+    font-family: "Roboto";
 }
