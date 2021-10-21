@@ -130,6 +130,15 @@
     .footer{
         width: 100%;
     }
+    .contacts{
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        .right{
+            padding: 20px;
+        }
+    }
 }
 @media screen and (max-width: 424px) {
     .footer{

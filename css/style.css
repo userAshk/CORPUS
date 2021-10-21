@@ -531,6 +531,17 @@
   .footer {
     width: 100%;
   }
+  .contacts {
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .contacts .right {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 424px) {
